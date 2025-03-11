@@ -3,17 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Slider</title>
+    <title>Profile Card</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="slider-container">
-      <div class="slider">
-        <img id="sliderImage" src="" alt="Slider Image" />
+    <div class="profile-card">
+      <div class="profile-picture">
+        <img
+          src="a-man-working-on-laptop-to-development-web-coding-and-apps-free-vector.jpg"
+          alt="Profile Picture"
+        />
       </div>
-      <button id="prevBtn">Previous</button>
-      <button id="nextBtn">Next</button>
+      <div class="profile-info">
+        <h1>John Doe</h1>
+        <p class="designation">Software Engineer</p>
+        <p class="bio">
+          Passionate about building scalable web applications and solving
+          complex problems.
+        </p>
+      </div>
+      <div class="social-media">
+        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
